@@ -1,0 +1,37 @@
+{
+	"name": "@richienb/interweave",
+	"version": "0.0.0",
+	"description": "Interweave multiple iterables",
+	"repository": "Richienb/interweave",
+	"author": {
+		"name": "Richie Bendall",
+		"email": "richiebendall@gmail.com"
+	},
+	"license": "MIT",
+	"type": "module",
+	"exports": "./index.js",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"engines": {
+		"node": ">=12.20"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"keywords": [
+		"interweave",
+		"iterable",
+		"array"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"tsd": "^0.18.0",
+		"xo": "^0.45.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
