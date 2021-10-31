@@ -1,6 +1,6 @@
 {
 	"name": "@richienb/interweave",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Interweave multiple iterables",
 	"repository": "Richienb/interweave",
 	"author": {
